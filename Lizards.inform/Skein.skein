@@ -1,0 +1,545 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Skein rootNode="node-0x023A8420" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+  <generator>Inform 7 for Windows</generator>
+  <activeNode nodeId="node-0x0279D318"/>
+  <item nodeId="node-0x023A8420">
+    <command xml:space="preserve">- start -</command>
+    <result xml:space="preserve">You've been walking for what seems like hours... or maybe days...or who knows, it could have just been minutes.  You only remember as far back as walking along this corridor.  Nothing else has existed in your mind prior to the corridor and you can only think of moving forward.  As you peer over your shoulder there is nothing to see.  The darkness seems to encroach your location at every step, yet the way ahead is lit by some unseen light.   The corridor is your existence.....&#x000A;&#x000A;Lizards&#x000A;An Interactive Fiction by Jason Lautzenheiser&#x000A;Release 1 / Serial number 140228 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) SD&#x000A;&#x000A;The Corridor&#x000A;An ancient corridor overgrown with brush and vines.  Dimly lit, you can see to the north the dim outline of an exit that you thought would never come.   Back to the south, the corridor fades into darkness.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-0x023A3090"/>
+    </children>
+  </item>
+  <item nodeId="node-0x023A3090">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">The Entrance&#x000A;You are standing at the entrance of the corridor.  You've been the corridor for what seems like a lifetime and the light is blinding.  You can only make out dim shapes. You notice a man dressed in the armor of a knight leaning on corridor wall.  He blends in so well with the wall, he is hard to see.&#x000A;&#x000A;Vague shapes can be seen here and there as you try to adjust to the lighting.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x023A3100"/>
+      <child nodeId="node-0x023A3250"/>
+      <child nodeId="node-0x023A32C0"/>
+      <child nodeId="node-0x0279D5B8"/>
+      <child nodeId="node-0x0279D3F8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x023A3100">
+    <command xml:space="preserve">showme player</command>
+    <result xml:space="preserve">There seems to be no such object anywhere in the model world.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x023A31E0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x023A31E0">
+    <command xml:space="preserve">showme me</command>
+    <result xml:space="preserve">yourself - person&#x000A;location: in the The Entrance&#x000A;singular-named, proper-named; unlit, inedible, portable; male, blinded&#x000A;printed name: "yourself"&#x000A;printed plural name: "people"&#x000A;indefinite article: none&#x000A;description: "As good-looking as ever."&#x000A;initial appearance: none&#x000A;carrying capacity: 100&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x023A2F40"/>
+    </children>
+  </item>
+  <item nodeId="node-0x023A2F40">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">The Entrance&#x000A;You are standing at the entrance of the corridor.  You've been the corridor for what seems like a lifetime and the light is blinding.  You can only make out dim shapes.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x023A3250">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">The Entrance&#x000A;You are standing at the entrance of the corridor.  You've been the corridor for what seems like a lifetime and the light is blinding.  You can only make out dim shapesYou notice a man dressed in the armor of a knight leaning on corridor wall.  He blends in so well with the wall, he is hard to see.&#x000A;&#x000A;You can see a knight here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x023A32C0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can barely see, you best not move until your eyes adjust.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x023A2CA0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x023A2CA0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can barely see, you best not move until your eyes adjust.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x023A2FB0"/>
+      <child nodeId="node-0x023A2E60"/>
+    </children>
+  </item>
+  <item nodeId="node-0x023A2FB0">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">The Entrance&#x000A;You are standing at the entrance of the corridor.  You've been the corridor for what seems like a lifetime and the light is blinding.  You can only make out dim shapes.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x023A2E60">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can barely see, you best not move until your eyes adjust.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x023A2D80"/>
+    </children>
+  </item>
+  <item nodeId="node-0x023A2D80">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can barely see, you best not move until your eyes adjust.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x023A3330"/>
+    </children>
+  </item>
+  <item nodeId="node-0x023A3330">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can barely see, you best not move until your eyes adjust.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x023A33A0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x023A33A0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can barely see, you best not move until your eyes adjust.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x023A2DF0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x023A2DF0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can barely see, you best not move until your eyes adjust.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x023A3020"/>
+    </children>
+  </item>
+  <item nodeId="node-0x023A3020">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can barely see, you best not move until your eyes adjust.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0279D858"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0279D858">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can barely see, you best not move until your eyes adjust.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0279D078"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0279D078">
+    <command xml:space="preserve">sz</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0279D1C8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0279D1C8">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0279D4D8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0279D4D8">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0279D7E8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0279D7E8">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0279DA18"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0279DA18">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0279D158"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0279D158">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0279D778"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0279D778">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0279DAF8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0279DAF8">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0279DD28"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0279DD28">
+    <command xml:space="preserve">showme me</command>
+    <result xml:space="preserve">yourself - person&#x000A;location: in the The Entrance&#x000A;singular-named, proper-named; unlit, inedible, portable; male, blinded&#x000A;printed name: "yourself"&#x000A;printed plural name: "people"&#x000A;indefinite article: none&#x000A;description: "As good-looking as ever."&#x000A;initial appearance: none&#x000A;carrying capacity: 100&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x0279D5B8">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0279D628"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0279D628">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0279D938"/>
+      <child nodeId="node-0x0279D698"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0279D938">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0279DB68"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0279DB68">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;Your eyes slowly adjust to the light and you can better make out your surroundings now.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0279D2A8"/>
+      <child nodeId="node-0x0279CF98"/>
+      <child nodeId="node-0x023A3170"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0279D2A8">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0279D238"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0279D238">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0279DBD8"/>
+      <child nodeId="node-0x0279DC48"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0279DBD8">
+    <command xml:space="preserve">showme me</command>
+    <result xml:space="preserve">yourself - person&#x000A;location: in the The Entrance&#x000A;singular-named, proper-named; unlit, inedible, portable; male, blinded&#x000A;printed name: "yourself"&#x000A;printed plural name: "people"&#x000A;indefinite article: none&#x000A;description: "As good-looking as ever."&#x000A;initial appearance: none&#x000A;carrying capacity: 100&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x0279DC48">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0279DCB8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0279DCB8">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">The Entrance&#x000A;You are standing at the entrance of the corridor.  You've been the corridor for what seems like a lifetime and the light is blinding.  You can only make out dim shapes.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0279D708"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0279D708">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can barely see, you best not move until your eyes adjust.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0279D9A8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0279D9A8">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can barely see, you best not move until your eyes adjust.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x0279CF98">
+    <command xml:space="preserve">k</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0279DE78"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0279DE78">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">The Entrance&#x000A;You are standing at the entrance of the corridor.  Looking out the entrance you see a path leading into a small village. You notice a man dressed in the armor of a knight leaning on corridor wall.  He blends in so well with the wall, he is hard to see.&#x000A;&#x000A;You can see a knightRutherford the Brave here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x023A3170">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">The Entrance&#x000A;You are standing at the entrance of the corridor.  Looking out the entrance you see a path leading into a small village. You notice a man dressed in the armor of a knight leaning on corridor wall.  He blends in so well with the wall, he is hard to see.&#x000A;&#x000A;You can see a knightRutherford the Brave here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0279D318"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0279D318">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">The Entrance&#x000A;You are standing at the entrance of the corridor.  Looking out the entrance you see a path leading into a small village. You notice a man dressed in the armor of a knight leaning on corridor wall.  He blends in so well with the wall, he is hard to see.&#x000A;&#x000A;You can see a knightRutherford the Brave here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x0279D698">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">The Entrance&#x000A;You are standing at the entrance of the corridor.  &#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0279D468"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0279D468">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0279D0E8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0279D0E8">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">The Corridor&#x000A;An ancient corridor overgrown with brush and vines.  Dimly lit, you can see to the north the dim outline of an exit that you thought would never come.   Back to the south, the corridor fades into darkness.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0279D388"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0279D388">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">The Entrance&#x000A;You are standing at the entrance of the corridor.  &#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0279D008"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0279D008">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">The Entrance&#x000A;You are standing at the entrance of the corridor.  &#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x0279D3F8">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can barely see, you best not move until your eyes adjust.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0279D8C8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0279D8C8">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0279D548"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0279D548">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0279DEE8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0279DEE8">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;Your eyes slowly adjust to the light and you can better make out your surroundings now.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0279DE08"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0279DE08">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0279DD98"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0279DD98">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">The Entrance&#x000A;You are standing at the entrance of the corridor.  Looking out the entrance you see a path leading into a small village. You notice a man dressed in the armor of a knight leaning on corridor wall.  He blends in so well with the wall, he is hard to see.&#x000A;&#x000A;You can see Rutherford the Brave here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+</Skein>
