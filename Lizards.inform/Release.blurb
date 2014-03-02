@@ -1,18 +1,18 @@
 ! Blurb file created by Inform build 6G60
 
-status "C:\Program Files (x86)\Inform 7\Inform7\Extensions\Reserved\CblorbModel.html" "C:\Users\jlautzenheiser\Documents\Inform\Projects\WIPs\Lizards\Lizards.inform\Build\StatusCblorb.html"
+status "C:\Program Files (x86)\Inform 7\Inform7\Extensions\Reserved\CblorbModel.html" "C:\Users\jlautzenheiser\Dropbox\Interactive Fiction\WIPs\Lizards\Lizards.inform\Build\StatusCblorb.html"
 
 
 ! Identification
 
-project folder "C:\Users\jlautzenheiser\Documents\Inform\Projects\WIPs\Lizards\Lizards.inform"
-release to "C:\Users\jlautzenheiser\Documents\Inform\Projects\WIPs\Lizards\Lizards Materials\Release"
+project folder "C:\Users\jlautzenheiser\Dropbox\Interactive Fiction\WIPs\Lizards\Lizards.inform"
+release to "C:\Users\jlautzenheiser\Dropbox\Interactive Fiction\WIPs\Lizards\Lizards Materials\Release"
 
 ! Blorb instructions
 
 storyfile leafname "Lizards.zblorb"
-storyfile "C:\Users\jlautzenheiser\Documents\Inform\Projects\WIPs\Lizards\Lizards.inform\Build\output.z5" include
-ifiction "C:\Users\jlautzenheiser\Documents\Inform\Projects\WIPs\Lizards\Lizards.inform\Metadata.iFiction" include
+storyfile "C:\Users\jlautzenheiser\Dropbox\Interactive Fiction\WIPs\Lizards\Lizards.inform\Build\output.z5" include
+ifiction "C:\Users\jlautzenheiser\Dropbox\Interactive Fiction\WIPs\Lizards\Lizards.inform\Metadata.iFiction" include
 cover "C:\Program Files (x86)\Inform 7\Inform7\Extensions\Reserved\DefaultCover.jpg"
 picture 1 "C:\Program Files (x86)\Inform 7\Inform7\Extensions\Reserved\DefaultCover.jpg"
 
