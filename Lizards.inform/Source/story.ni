@@ -31,7 +31,7 @@ Book - People
 
 Chapter - Rutherford the Brave
 
-Rutherford the Brave is a person.  Rutherford the Brave is in the entrance.  Rutherford the Brave is hidden.  Rutherford the Brave is undescribed.  The printed name of Rutherford the Brave is "the knight".
+Rutherford the Brave is a person.  Rutherford the Brave is in the entrance.  Rutherford the Brave is hidden.  Rutherford the Brave is undescribed.  The printed name of Rutherford the Brave is "the knight".  The description of the rutherford is "He's in some gnarly armor."
 
 Understand "knight/man" as Rutherford the Brave.
 
