@@ -1,15 +1,15 @@
 "Lizards" by Jason Lautzenheiser
 
-Book - Setup
+Book 1 - Setup
 
-Chapter - When Play Begins
+Chapter 1 - When Play Begins
 
 When play begins:
 	say "You've been walking for what seems like hours... or maybe days...or who knows, it could have just been minutes.  You only remember as far back as walking along this corridor.  Nothing else has existed in your mind prior to the corridor and you can only think of moving forward.  As you peer over your shoulder there is nothing to see.  The darkness seems to encroach your location at every step, yet the way ahead is lit by some unseen light.   The corridor is your existence....."
 
-Chapter - Attributes
+Chapter 2 - Attributes
 
-Section - Blind
+Section 1 - Blind
 
 A person can be blinded.   A person is usually not blinded.
 instead of going when the player is blinded:
@@ -19,25 +19,25 @@ at the time when the player can see:
 	say "Your eyes slowly adjust to the light and you can better make out your surroundings now.";
 	now the player is not blinded.
 
-Section - Hidden
+Section 2 - Hidden
 
 A person can be hidden.  A person is usually not hidden.
 
-Section - Named
+Section 3 - Named
 
 A person can be named.  A person is usually not named.
 
-Book - People
+Book 2 - People
 
-Chapter - Rutherford the Brave
+Chapter 1 - Rutherford the Brave
 
 Rutherford the Brave is a person.  Rutherford the Brave is in the entrance.  Rutherford the Brave is hidden.  Rutherford the Brave is undescribed.  The printed name of Rutherford the Brave is "the knight".  The description of the rutherford is "He's in some gnarly armor."
 
 Understand "knight/man" as Rutherford the Brave.
 
-Book - Rooms
+Book 3 - Rooms
 
-Chapter - Corridor
+Chapter 1 - Corridor
 
 The corridor is a room.  The printed name of corridor is "The Corridor". The description of corridor is "An ancient corridor overgrown with brush and vines.  Dimly lit, you can see to the north the dim outline of an exit that you thought would never come.   Back to the south, the corridor fades into darkness."
 	
@@ -49,14 +49,14 @@ report going north from the corridor for the first time:
 [The player starts the game here]
 The player is in the corridor
 
-Chapter - Entrance
+Chapter 2 - Entrance
 
 The entrance is a room.   The entrance is north of the corridor. The printed name of entrance is "The Entrance".  The description of the entrance is "You are standing at the entrance of the corridor.  [if the player is blinded]You've been the corridor for what seems like a lifetime and the light is blinding.  You can only make out dim shapes[otherwise]Looking out the entrance you see a path leading into a small village[end if]. [if the player is not blinded and rutherford the brave is in the entrance]You notice a man dressed in the armor of a knight leaning on corridor wall.  He blends in so well with the wall, he is hard to see.[end if]"
 
 Rule for listing nondescript items of the entrance while the player is blinded:
 	say "Vague shapes can be seen here and there as you try to adjust to the lighting."
 	
-Chapter - Pathway
+Chapter 3 - Pathway
 
 The pathway is a room.  The pathway is north of the entrance.  The description of the pathway is "You are standing on the cobblestone pathway to the small village of Prussia which lies to your east."
 
@@ -64,17 +64,17 @@ Before going east in the pathway:
 	if rutherford the brave is in the pathway:
 		try rutherford the brave trying going east.
 
-Chapter - Streets of Prussia
+Chapter 4 - Streets of Prussia
 
 The Streets of Prussia is a room.  The streets of prussia is east of the pathway.  The description of streets of prussia is "You are walking along the streets of Prussia, a small medieval village."
 
-Chapter - Forest
+Chapter 5 - Forest
 
 The forest is a room.  The forest is north of the streets of prussia.  The description of the forest is "The dark forest presses in on from all sides with just a hint of the way you came from the south."
 
 
 
-Book - Regions
+Book 4 - Regions
 
 The corridor-region is a region.  The entrance and the corridor are in corridor-region.
 
@@ -88,9 +88,9 @@ Instead of going nowhere in the corridor-region:
 		say "You can't move through the walls."
 
 
-Book - Scenes
+Book 5 - Scenes
 
-Chapter - Meet Rutherford for First Time
+Chapter 1 - Meet Rutherford for First Time
 
 Meeting Rutherford is a scene.  Meeting Rutherford begins when the player is not blinded and the location is the entrance.
 Meeting Rutherford ends when the time since Meeting Rutherford began is 3 minutes.
@@ -116,7 +116,7 @@ output
 "'I[']m on my way to see the king.'" 
 "'You can follow along if you'd like.'"
 
-Chapter - Enter Streets of Prussia
+Chapter 2 - Enter Streets of Prussia
 
 Entering town is a scene.  Entering town begins when the location is the streets of prussia for the first time.
 Entering town ends when the time since entering town began is 4 minutes.
