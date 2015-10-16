@@ -16,8 +16,6 @@
 	</dict>
 	<key>IFMiscSettings</key>
 	<dict>
-		<key>IFSettingElasticTabs</key>
-		<true/>
 		<key>IFSettingInfix</key>
 		<false/>
 	</dict>
@@ -28,7 +26,7 @@
 		<key>IFSettingNobbleRng</key>
 		<false/>
 		<key>IFSettingZCodeVersion</key>
-		<integer>5</integer>
+		<integer>256</integer>
 	</dict>
 	<key>IFRandomSettings</key>
 	<dict/>
